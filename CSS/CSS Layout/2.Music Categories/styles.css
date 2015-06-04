@@ -1,0 +1,52 @@
+body {
+	background-color: #F5EDF0;
+	border-color: #EEEEEE;
+	font-family: 'Segoe UI'
+}
+article {
+	background-color: #ffffff;
+	border:1px solid #999999;
+	padding: 15px;
+	overflow: auto;
+	width: 380px;
+	margin: 35px 0 35px 0;
+}
+h2{
+	font-weight: lighter;
+}
+p{
+	width:200px;
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+	font-weight: 900;
+	color: #2E2E2E;
+}
+img{
+	float: left;
+	border: 1px solid #999999;
+}
+.articleContent{
+	float: left;
+	margin-left: 20px;
+	width: 220px;
+}
+.buttonDiv{
+	float: right;
+	display: inline;
+}
+.listenButton{
+	background-image: url("Images/listenBtn.png");
+	width:73px;
+	height: 25px;
+	border: none;
+	color: #ffffff;
+}
+.addButton{
+	background-image: url("Images/addBtn.png");
+	width: 59px;
+	height: 25px;
+	border: none;
+	color: #ffffff;
+}

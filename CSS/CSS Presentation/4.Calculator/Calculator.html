@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<section id="calculator">
+		<h1>Calculator</h1>
+		<section id="frame">
+			<header>
+				<nav>
+					<table>
+						<tr>
+							<td>View</td>
+							<td>Edit</td>
+							<td>Help</td>
+						</tr>
+					</table>
+				</nav>
+			</header>
+			<section id="sectionBin">
+				<table cellspacing="0" class="binTable">
+					<thead>
+						<tr>
+							<td colspan="8"><input type="text" id="display" value="8854455"/></td>
+						</tr>
+					</thead>
+					<tbody id="bin">
+						<tr>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+						</tr>
+						<tr>
+							<td colspan="4">63</td>
+							<td colspan="3">47</td>
+							<td class="bin32">32</td>
+						</tr>
+						<tr>
+							<td>0000</td>
+							<td>0000</td>
+							<td>1000</td>
+							<td>0111</td>
+							<td>0001</td>
+							<td>1011</td>
+							<td>1011</td>
+							<td>0111</td>
+						</tr>
+						<tr>
+							<td colspan="4">31</td>
+							<td colspan="3">15</td>
+							<td class="bin32">0</td>
+						</tr>
+					</tbody>
+				</table>
+				<section>
+					<table id="buttonTable">
+						<tr>
+							<td rowspan="3" colspan="2">
+								<fieldset>
+									<input type="radio" name="system" value="hex"/>Hex<br/>
+									<input type="radio" name="system" value="dec" checked="checked"/>Dec<br/>
+									<input type="radio" name="system" value="oct"/>Oct<br/>
+									<input type="radio" name="system" value="bin"/>Bin
+								</fieldset>
+							</td>
+							<td><button></button></td>
+							<td><button class="halfGrad">Mod</button></td>
+							<td><button>A</button></td>
+							<td><button>MC</button></td>
+							<td><button>MR</button></td>
+							<td><button>MS</button></td>
+							<td><button>M+</button></td>
+							<td><button>M-</button></td>
+						</tr>
+						<tr>
+							<td><button class="halfGrad">(</button></td>
+							<td><button class="halfGrad">)</button></td>
+							<td><button>B</button></td>
+							<td><button class="halfGrad">&larr;</button></td>
+							<td><button class="halfGrad">CE</button></td>
+							<td><button class="halfGrad">C</button></td>
+							<td><button class="halfGrad">&plusmn;</button></td>
+							<td><button>&radic;</button></td>
+						</tr>
+						<tr>
+							<td><button class="halfGrad">RoL</button></td>
+							<td><button class="halfGrad">RoR</button></td>
+							<td><button>C</button></td>
+							<td><button class="num">7</button></td>
+							<td><button class="num">8</button></td>
+							<td><button class="num">9</button></td>
+							<td><button class="halfGrad">/</button></td>
+							<td><button>%</button></td>
+						</tr>
+						<tr>
+							<td rowspan="3" colspan="2">
+								<fieldset>
+									<input type="radio" name="word" value="qword" checked="checked">Qword<br/>
+									<input type="radio" name="word" value="dword">Dword<br/>
+									<input type="radio" name="word" value="word">Word<br/>
+									<input type="radio" name="word" value="byte">Byte
+								</fieldset>
+							</td>
+							<td><button class="halfGrad">Or</button></td>
+							<td><button class="halfGrad">xOR</button></td>
+							<td><button>D</button></td>
+							<td><button class="num">4</button></td>
+							<td><button class="num">5</button></td>
+							<td><button class="num">6</button></td>
+							<td><button class="halfGrad">*</button></td>
+							<td><button>1/x</button></td>
+						</tr>
+						<tr>
+							<td><button class="halfGrad">Lsh</button></td>
+							<td><button class="halfGrad">Rsh</button></td>
+							<td><button>E</button></td>
+							<td><button class="num">1</button></td>
+							<td><button class="num">2</button></td>
+							<td><button class="num">3</button></td>
+							<td><button class="halfGrad">-</button></td>
+							<td rowspan="2" id="equal"><button class="halfGrad">=</button></td>
+						</tr>
+						<tr>
+							<td><button class="halfGrad">Not</button></td>
+							<td><button class="halfGrad">And</button></td>
+							<td><button>F</button></td>
+							<td colspan="2" id="zero"><button class="num">0</button></td>
+							<td id="dot"><button>.</button></td>
+							<td><button class="halfGrad">+</button></td>
+						</tr>
+					</table>
+				</section>
+			</section>
+		</section>
+	</section>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body{
+	background-color: #a9a9a9;
+	text-align: center;
+}
+
+h1{
+	color: #fafad2;
+}
+
+nav > ul > li > a , nav > ul > li {
+	padding: 1px;
+	margin: 4px;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+nav > ul > li > a{
+	color: #ffffff;
+}
+
+nav > ul > li:last-child{
+	text-decoration: underline;
+}
+
+article > header > h1{
+	text-align: left;
+	font-size: 25px;
+}
+
+article > footer{
+	font-size: 12px;
+}
+
+article > footer > p > a{
+	text-decoration: none;
+	color: black;
+}
+
+p{
+	text-align: justify;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.current{
+	background-color: #d3d3d3;
+}

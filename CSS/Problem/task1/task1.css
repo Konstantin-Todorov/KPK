@@ -1,0 +1,26 @@
+﻿#wrapper div{ 
+	
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 14px;
+	margin: 17px;
+	margin-top: 25px;
+}
+
+#wrapper h1{
+  padding: 1px;
+  padding-left: 29px;
+  padding-bottom: 0px;
+  FONT-SIZE: 35.5PX;
+  text-align: start;
+}
+.right-arrow{
+  position: fixed;
+  right: 23px;
+  top: 109px;
+}
+.left-arrow{
+  position: fixed;
+  left: 25px;
+  top: 109px;
+}
